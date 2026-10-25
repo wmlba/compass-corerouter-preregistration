@@ -1,0 +1,92 @@
+{
+ "beats_every_single": true,
+ "best_single": "gemini-3-flash-preview",
+ "chosen": "C",
+ "chosen_vs_best_single": {
+  "probability_positive": 1.0,
+  "quality_delta_ci95": [
+   -0.008928156168575244,
+   0.0026389786998066954
+  ],
+  "score_delta": 1.078390770165612,
+  "score_delta_ci95": [
+   0.5719572520251692,
+   1.5974943562171438
+  ]
+ },
+ "policy_sha256": "3c9ce83ab059d2edb2d281f44576eacd0e35d4e4bf9c75aaa6091690ee332cd6",
+ "prompts": 4586,
+ "schema": "corerouter-v2-locked-test-read",
+ "single": {
+  "deepseek/deepseek-v4-flash": {
+   "cost_per_1k": 0.050405359474738634,
+   "quality": 0.7527029069414269,
+   "route_mix": {
+    "deepseek/deepseek-v4-flash": 4586
+   },
+   "score": 75.44713151642823
+  },
+  "gemini-3-flash-preview": {
+   "cost_per_1k": 0.43975368714105195,
+   "quality": 0.81410062396045,
+   "route_mix": {
+    "gemini-3-flash-preview": 4586
+   },
+   "score": 78.37047209609773
+  },
+  "google/gemma-4-31b-it": {
+   "cost_per_1k": 0.06528419733173332,
+   "quality": 0.7752511433790777,
+   "route_mix": {
+    "google/gemma-4-31b-it": 4586
+   },
+   "score": 77.2740988903059
+  },
+  "qwen/qwen3-235b-a22b-2507": {
+   "cost_per_1k": 0.031198881759039048,
+   "quality": 0.7588776275837176,
+   "route_mix": {
+    "qwen/qwen3-235b-a22b-2507": 4586
+   },
+   "score": 76.38456713271718
+  }
+ },
+ "variants": {
+  "A": {
+   "calls_per_prompt": {
+    "2": 3356,
+    "3": 1230
+   },
+   "cost_per_1k": 0.2260922240967707,
+   "quality": 0.8056165542185855,
+   "route_mix": {
+    "x": 4586
+   },
+   "score": 78.6082774431662
+  },
+  "B": {
+   "calls_per_prompt": {
+    "1": 4586
+   },
+   "cost_per_1k": 0.3571980824234861,
+   "quality": 0.8221997974630696,
+   "route_mix": {
+    "x": 4586
+   },
+   "score": 79.38044884150007
+  },
+  "C": {
+   "calls_per_prompt": {
+    "1": 846,
+    "2": 2909,
+    "3": 831
+   },
+   "cost_per_1k": 0.16589583388380447,
+   "quality": 0.8107821287257252,
+   "route_mix": {
+    "x": 4586
+   },
+   "score": 79.44886286626334
+  }
+ }
+}

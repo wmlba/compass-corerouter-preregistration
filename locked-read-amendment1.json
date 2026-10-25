@@ -1,0 +1,23 @@
+{
+ "code_sha256": {
+  "corerouter_v2_locked.py": "17471bd480e30819bb53db855d9fbbb27cedff40d5fde2d5b43d2bc096edf185",
+  "corerouter_v2_policy.py": "a8e3f88abaef90c10a18cbf73b77cb15ec3b9a1eb8fc015c82a8d9015a830cee"
+ },
+ "decision": {
+  "bar": 77.15,
+  "beats_every_single": true,
+  "chosen": "C",
+  "predicted_lower": 77.65,
+  "submit": true
+ },
+ "freeze_manifest_sha256": "4e5cd1085c7e3a8a5395ee149872b915b504906a5974dd47420ce0fb478a8457",
+ "frozen_route_unchanged": true,
+ "graded_sha256": {
+  "locked-gemini3flash.graded.jsonl": "c367b8491c6d67b166fce6e67ae5676da5f8ed98e3bdf8561064f80c28fe33be",
+  "locked-gemma4.graded.jsonl": "6b5ffbf3ca6dfec10611cfb9d8127d334ea130f559f8c413b32c2ab3dc299377",
+  "locked-qwen235.graded.jsonl": "1b2d74e96524acb5eede0d60452416a5fe70fd645afbf60c0ef46f7576fd6ff3",
+  "locked-v4flash.graded.jsonl": "e277259270ef8b473087f4ff51d1f8981c33813cb8e8a9238e9dc7c3847aca35"
+ },
+ "result_sha256": "979d9a48781735885ce9782470da29d25d3ea7c6cad973679f856e8ebc8cdf05",
+ "schema": "corerouter-v2-locked-read-amendment1"
+}
