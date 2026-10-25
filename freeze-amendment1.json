@@ -1,0 +1,42 @@
+{
+ "files_sha256": {
+  "experiments/clm_judge/routerarena_generate.py": "c09f50763a55bb1baaa242e7d1a3a5760ad564dc98a60a0eb90ef5aea83c09dd",
+  "experiments/replay/agreement_policy_cv.py": "1d11a81f02cd9f21836e5bff0ad806036f85925410300cf9581ba66a84d2bdd5",
+  "experiments/replay/arena_label_free.py": "8fc8b3d27e9ca4cb5c4ca142e9b9c5da52806500fec6cd25a456fbb8921a20e6",
+  "experiments/replay/arena_policy_estimate.py": "d47ca93ff8c5528901f0c55c2ba314cb9100cf66b642f8d3c2d08dce71ef0d18",
+  "experiments/replay/arena_shadow_pool.py": "ef8c0938fd3a4c237e45d685bbb0a6db1a026b9afaf03de43002b111c05380c1",
+  "experiments/replay/corerouter_v2_policy.py": "a8e3f88abaef90c10a18cbf73b77cb15ec3b9a1eb8fc015c82a8d9015a830cee",
+  "experiments/replay/gemini_batch.py": "b10676a7eea66ddcb8e1e2780c504cd8b6fdd5db2a2cb295854b731966488f70",
+  "experiments/replay/pool_podman_grade.py": "c2839a44e9eaf816e77726d04c1668d772709e33dc976fe0a28e0d908b60eb53",
+  "experiments/replay/router_twin_collection.py": "45f85d22d3740fc35ebf4907e1d5ac6f4ec984765e848b713e92ec6b0396251b",
+  "experiments/replay/twin_local_grade.py": "81f1f40535e1257cb229df5c978330a152e97d5dce93435ae0093b0c413842ce",
+  "runs/corerouter-v2-freeze-20261025/arena-prediction-amendment1.json": "a7c2dc426d7c76526cd29e98ac80ac8319f0264e96ed0894dde79fda6e054ba0",
+  "runs/corerouter-v2-freeze-20261025/policy-amendment1.json": "3c9ce83ab059d2edb2d281f44576eacd0e35d4e4bf9c75aaa6091690ee332cd6",
+  "runs/locked-test-20261026-v1-admission/compare.json": "e81c462fa13bdc11a8558de791980208926fec84e50121b722cf1b3bcb40fb93",
+  "runs/locked-test-20261026-v1-answers/gemini-batch-locked/results.jsonl": "56a90eb231c75b613a53d69de5cb418163e4c2f72735066544da185dadf043ec",
+  "runs/model-atlas-20261025/label-free/estimate-v2-gemini.json": "c10623102f0d683dea757075ab7a428a85c4f793c2f19225a370444d61f48798",
+  "runs/model-atlas-20261025/label-free/estimate-v2-gemini.per-prompt.json": "75cc67e7e6838289ca6c980bbe1579ac9b75a70196692db8c84f148f7d4990b3"
+ },
+ "frozen_at": "2026-10-25T16:11:00.710213+00:00",
+ "locked_answers_sha256_amd": {
+  "locked-gemma4.jsonl": "26aead767c712e04bfeef47a8bda3960e2d57db84bc99f8cec5329f9e13ce384",
+  "locked-qwen235.jsonl": "68afa79a0cf1e9f777ec9b490ebf3924ef6deeb7c6679b698f322a25ad079bc4",
+  "locked-v4flash.jsonl": "6b817869e8f8d3a5f4b1340278b8ec431d125a45087ecc3f63c8904bff4f2ef8"
+ },
+ "locked_test_lock_sha256": "2997285c82bb8bfba997fc85e081a7918075b45e464e651b54d3984cede15c7f",
+ "locked_test_read": false,
+ "routerarena_caches_sha256": {
+  "deepseek_deepseek-v4-flash": "ca890b6ea6b7cd3004606ba56e98e1036cadb51354c01d6c0b1cf94367bee7e7",
+  "gemini-3-flash-preview": "b568e00d41babdad2f587ab20759f48a1d98010e60a04d729744f7d78d2306aa",
+  "google_gemma-4-31b-it": "947ab8a3285ef3d65aaf843332bbdbadd4a0fa118bfb412182098617aed59215",
+  "qwen_qwen3-235b-a22b-2507": "2b1a3a1e29a2a3016dafe3dfd2be1fa7d914d730c3c01635e66e9da52b35b0f0"
+ },
+ "routerarena_revision": "04c99fd",
+ "routerarena_robustness_caches_sha256": {
+  "deepseek_deepseek-v4-flash": "c859b36265bf52160d10ea05fa2fbc5d7e7ab063f665cbfca01cc67901e32bbf",
+  "gemini-3-flash-preview": "a5712daf6151bbcba27e6fdec5ade4c38c2bb46a26b9b11a07d43c28ab6d3042",
+  "google_gemma-4-31b-it": "ae13dfe9721adc5c3932c343ff7c642e7d8facf8598f59277da599c2eacf9b0d",
+  "qwen_qwen3-235b-a22b-2507": "fe3ce5e38fba8e6a3180b6f05a9c6e7563471039446d607fbbe40c6765b12e7d"
+ },
+ "schema": "corerouter-v2-freeze-amendment1"
+}

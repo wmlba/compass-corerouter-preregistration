@@ -1,0 +1,79 @@
+{
+ "bias_shift": {
+  "gemini": 0.008512886053821389,
+  "v1": 0.01263119461668949
+ },
+ "policy_sha256": "3c9ce83ab059d2edb2d281f44576eacd0e35d4e4bf9c75aaa6091690ee332cd6",
+ "schema": "corerouter-v2-arena-prediction",
+ "variants": {
+  "A": {
+   "accuracy_raw": 0.7853384479516891,
+   "calls_per_prompt": {
+    "1": 385,
+    "2": 5697,
+    "3": 2318
+   },
+   "cost_per_1k": 0.24166985845238098,
+   "predicted_accuracy": {
+    "gemini": 0.7938513340055104,
+    "v1": 0.7979696425683785
+   },
+   "predicted_score": {
+    "gemini": 77.50257774421313,
+    "v1": 77.85921508901154
+   },
+   "returned": {
+    "gemini-3-flash-preview": 2314,
+    "gemma-4-31b-it": 389,
+    "qwen3-235b-a22b-2507": 5697
+   },
+   "score_raw": 76.76405790199279
+  },
+  "B": {
+   "accuracy_raw": 0.7888882720579703,
+   "calls_per_prompt": {
+    "1": 8400
+   },
+   "cost_per_1k": 0.3387109994047619,
+   "predicted_accuracy": {
+    "gemini": 0.7974011581117917,
+    "v1": 0.8015194666746598
+   },
+   "predicted_score": {
+    "gemini": 77.34796836796025,
+    "v1": 77.70001913730172
+   },
+   "returned": {
+    "deepseek-v4-flash": 121,
+    "gemini-3-flash-preview": 6594,
+    "gemma-4-31b-it": 1360,
+    "qwen3-235b-a22b-2507": 325
+   },
+   "score_raw": 76.61888612941358
+  },
+  "C": {
+   "accuracy_raw": 0.7824285261838826,
+   "calls_per_prompt": {
+    "1": 1806,
+    "2": 4990,
+    "3": 1604
+   },
+   "cost_per_1k": 0.1753371727380952,
+   "predicted_accuracy": {
+    "gemini": 0.790941412237704,
+    "v1": 0.7950597208005721
+   },
+   "predicted_score": {
+    "gemini": 77.64708693992633,
+    "v1": 78.00770276952466
+   },
+   "returned": {
+    "deepseek-v4-flash": 121,
+    "gemini-3-flash-preview": 1604,
+    "gemma-4-31b-it": 1360,
+    "qwen3-235b-a22b-2507": 5315
+   },
+   "score_raw": 76.90038236755473
+  }
+ }
+}
